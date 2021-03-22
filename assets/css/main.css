@@ -67,6 +67,7 @@ ul.navbar-nav {
     color: #E8E8E8;
 }
 #productos img {
+    display: none;
     max-width: 300px;
     width: 80%;
 }
@@ -84,5 +85,10 @@ ul.navbar-nav {
     .icono-menu {
         display: flex;
         justify-content: center;
+    }
+    #productos img {
+        display: block;
+        max-width: 300px;
+        width: 80%;
     }
 }
