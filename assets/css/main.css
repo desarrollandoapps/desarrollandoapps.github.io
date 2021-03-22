@@ -68,6 +68,7 @@ ul.navbar-nav {
 }
 #productos img {
     width: 80%;
+    height: auto;
 }
 .icono-menu {
     display: none;
