@@ -67,8 +67,8 @@ ul.navbar-nav {
     color: #E8E8E8;
 }
 #productos img {
+    max-width: 300px;
     width: 80%;
-    height: auto;
 }
 .icono-menu {
     display: none;
