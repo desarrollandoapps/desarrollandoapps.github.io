@@ -88,7 +88,6 @@ ul.navbar-nav {
     }
     #productos img {
         display: block;
-        max-width: 300px;
         width: 80%;
     }
 }
