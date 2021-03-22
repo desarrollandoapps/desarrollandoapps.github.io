@@ -1,0 +1,87 @@
+* {
+    font-family: 'Cabin', sans-serif;
+}
+body {
+    background-color: #f4f4f4 !important;
+}
+.logo {
+    width: 50%;
+}
+.navbar, #home {
+    background-color: #6D93A6;
+}
+.container-fluid {
+    display: inline-block !important;
+}
+.navbar-brand {
+    color: #FFF !important;
+}
+.navbar-toggler {
+    float: right;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF !important;
+}
+ul.navbar-nav {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    background-color: #647983;
+}
+
+#home .col-lg-6 .container h2 {
+    color: #FFF;
+}
+
+#home p, .footer p {
+    color: #E8E8E8;
+}
+.titulo-2 {
+    font-size: 2rem !important;
+}
+.titulo-3 {
+    font-size: 1.5rem !important;
+}
+
+#acerca p, #acerca ul li, #servicios p {
+    color: #777;
+}
+#servicios p {
+    background-color: #FFF;
+}
+.icono-verde {
+    color: #557340;
+}
+.icono-footer {
+    color: #E8E8E8;
+}
+.container-centrado {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background-color: #232323;
+    color: #FFF;
+}
+.footer a {
+    text-decoration: none;
+    color: #E8E8E8;
+}
+#productos img {
+    width: 80%;
+}
+.icono-menu {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .container-fluid {
+        display: flex !important;
+    }
+    ul.navbar-nav {
+        background-color: transparent;
+    }
+    .icono-menu {
+        display: flex;
+        justify-content: center;
+    }
+}
